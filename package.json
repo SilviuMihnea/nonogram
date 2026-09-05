@@ -22,6 +22,7 @@
 		"web-vitals": "^1.0.1"
 	},
 	"scripts": {
+		"prestart": "export NODE_OPTIONS=--openssl-legacy-provider",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
